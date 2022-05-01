@@ -21,7 +21,6 @@ const SearchFilters = () => {
   const router = useRouter();
 
 
-
   const searchProperties = (filterValues) => {
     //update the state of the filtered options
     const path = router.pathname;
